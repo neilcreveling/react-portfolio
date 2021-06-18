@@ -1,0 +1,25 @@
+[
+    {
+        "id": 1,
+        "name": "Yup!",
+        "image": "/images/yup_page.png",
+        "details": [
+            "HTML/CSS, JS, Bootstrap, Handlebars",
+            "Node.js/Express, MySQL/Sequelize, Cloudinary, Streamifier, Multer", 
+            "Google Maps and NYC Open Data APIs"
+        ],
+        "github": "https://github.com/neilcreveling/yup-schlepp",
+        "link": "https://guarded-atoll-77888.herokuapp.com/login"
+    },
+    {
+        "id": 2,
+        "name": "Weather Dashboard",
+        "image": "/images/weather_result.png",
+        "details": [
+            "Progressive Web App, HTML/CSS, JS",
+            "Bootstrap, OpenWeather API"
+        ],
+        "github": "https://github.com/neilcreveling/Weather-Dashboard",
+        "link": "https://neilcreveling.github.io/Weather-Dashboard/"
+    }
+]
