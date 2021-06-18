@@ -2,7 +2,10 @@ import React from "react";
 import 'bootstrap/dist/css/bootstrap.min.css';
 import Jumbotron from 'react-bootstrap/Jumbotron';
 
-<Jumbotron>
+
+function Contact() {
+    return (
+        <Jumbotron>
     <Container>
         <h1>Contact Me</h1>
         <ul>
@@ -13,3 +16,7 @@ import Jumbotron from 'react-bootstrap/Jumbotron';
         </ul>
     </Container>
 </Jumbotron>
+    )
+}
+
+export default Contact;

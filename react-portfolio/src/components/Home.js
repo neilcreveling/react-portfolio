@@ -2,7 +2,9 @@ import React from "react";
 import 'bootstrap/dist/css/bootstrap.min.css';
 import Jumbotron from 'react-bootstrap/Jumbotron';
 
-<Jumbotron id="homepage">
+function Home() {
+    return (
+        <Jumbotron id="homepage">
     <Container>
         <img src="images/neil_1.jpeg" alt="Neil Creveling Portrait"/>
         <h1>Hi, I'm Neil.</h1>
@@ -10,3 +12,7 @@ import Jumbotron from 'react-bootstrap/Jumbotron';
         <h2>Learn more about me and what I do.</h2>
     </Container>
 </Jumbotron>
+    )
+}
+
+export default Home;
