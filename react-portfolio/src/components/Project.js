@@ -13,7 +13,7 @@ function Project(props) {
     };
 
     return (
-        <Card style={{ width: '18rem' }}>
+        <Card id="workpage" style={{ width: '18rem' }}>
             <Card.Img variant="top" src={props.image} alt={props.name} />
             <Card.Body>
                 <Card.Title>{props.name}</Card.Title>

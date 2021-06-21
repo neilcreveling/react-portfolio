@@ -1,14 +1,15 @@
 import './App.css';
 import NavBar from './components/NavBar';
 import About from './components/About';
-import Work from './components/MyWork';
+import Work from './components/Work';
 import Home from './components/Home';
+import Contact from './components/Contact';
 import { BrowserRouter as Router, Route } from "react-router-dom";
 import 'bootstrap/dist/css/bootstrap.min.css';
 
 function App() {
   return (
-    <div>
+    <body>
       <header>
         <h1>
           NRC
@@ -19,12 +20,12 @@ function App() {
         </Router>
       </header>
       <main>
-        <Enter />
+        <Home />
         <About />
         <Work />
         <Contact />
       </main>
-    </div>
+    </body>
   );
 }
 

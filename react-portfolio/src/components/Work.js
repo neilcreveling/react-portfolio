@@ -1,4 +1,4 @@
-import React from "react";
+import React, { Component } from "react";
 import Project from "./Project"
 import projects from "../projects"
 import 'bootstrap/dist/css/bootstrap.min.css';
@@ -27,10 +27,8 @@ class Work extends Component {
     render() {
         return (
             <Jumbotron>
-            <Container>
                 <h1>Work</h1>
-                 <Project />
-            </Container>
+                 {this.mapProjects()}
         </Jumbotron>
         )
     }
