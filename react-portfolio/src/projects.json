@@ -53,5 +53,16 @@
         ],
         "github": "https://github.com/neilcreveling/team-project",
         "link": "https://lawriedrew.github.io/team-project/"
+    },
+    {
+        "id": 6,
+        "name": "Professional Readme Generator",
+        "image": "/images/readme1.png",
+        "details": [
+            "HTML/CSS, JS",
+            "Node.js, Command-line Application"
+        ],
+        "github": "https://github.com/neilcreveling/Professional-README-Generator/tree/main",
+        "link": "https://www.youtube.com/watch?v=_Sk4pNNajqE"
     }
 ]
