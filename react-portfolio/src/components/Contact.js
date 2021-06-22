@@ -5,7 +5,7 @@ import Jumbotron from 'react-bootstrap/Jumbotron';
 
 function Contact() {
     return (
-        <Jumbotron id="contactpage">
+        <Jumbotron id="contactpage" className="jumbotron">
         <h1>Contact Me</h1>
         <ul>
                 <li><a href="tel:1-585-478-8852">(585)-478-8852</a></li>

@@ -13,7 +13,7 @@
 #homepage {
   color: var(--yellow-light);
   background-color: black;
-  border-bottom: 300px;
+  border-bottom: 600px;
   border-color: var(--blue-light);
 }
 
@@ -92,7 +92,7 @@ body {
   padding-bottom: 15%;
 }
 
-.portrait {
+#portrait {
   border-radius: 15%;
   margin-left: 5%;
   width: 50%;
@@ -122,6 +122,10 @@ a {
 
 li {
   font-size: 1.7rem;
+}
+
+#nav {
+  background-color: black !important;
 }
 
 .image-row {

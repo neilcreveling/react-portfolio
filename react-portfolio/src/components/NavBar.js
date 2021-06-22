@@ -1,24 +1,25 @@
 import React from "react";
 import 'bootstrap/dist/css/bootstrap.min.css';
 import Nav from 'react-bootstrap/Nav';
+import { NavHashLink } from 'react-router-hash-link';
 
 function NavBar() {
     return (
-        <Nav
+        <Nav bg="dark" id="nav"
             activeKey="/home"
             onSelect={(selectedKey) => alert(`selected ${selectedKey}`)}
         >
             <Nav.Item>
-                <Nav.Link href="/home">Home</Nav.Link>
+                <NavHashLink className="homelink" to="#homepage">Home</NavHashLink>
             </Nav.Item>
             <Nav.Item>
-                <Nav.Link href="/about">About</Nav.Link>
+                <NavHashLink className="aboutlink" to="#aboutpage">About</NavHashLink>
             </Nav.Item>
             <Nav.Item>
-                <Nav.Link href="/work">Work</Nav.Link>
+                <NavHashLink className="worklink" to="#workpage">Work</NavHashLink>
             </Nav.Item>
             <Nav.Item>
-                <Nav.Link href="/contact">Contact</Nav.Link>
+                <NavHashLink className="contactlink" to="#contactpage">Contact</NavHashLink>
             </Nav.Item>
         </Nav>
     )

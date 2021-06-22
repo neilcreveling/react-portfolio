@@ -21,5 +21,37 @@
         ],
         "github": "https://github.com/neilcreveling/Weather-Dashboard",
         "link": "https://neilcreveling.github.io/Weather-Dashboard/"
+    },
+    {
+        "id": 3,
+        "name": "Random Number Generator",
+        "image": "/images/Generator-result.png",
+        "details": [
+            "HTML/CSS, JS"
+        ],
+        "github": "https://github.com/neilcreveling/Random-Password-Generator",
+        "link": "https://neilcreveling.github.io/Random-Password-Generator/"
+    },
+    {
+        "id": 4,
+        "name": "Work Day Scheduler",
+        "image": "/images/scheduler_secondplans.png",
+        "details": [
+            "HTML/CSS, JS",
+            "jQuery, Moment.js"
+        ],
+        "github": "https://github.com/neilcreveling/Work-Day-Scheduler",
+        "link": "https://neilcreveling.github.io/Work-Day-Scheduler/"
+    },
+    {
+        "id": 5,
+        "name": "Tipsy Tarot",
+        "image": "/images/TipsyTarot4.jpeg",
+        "details": [
+            "HTML/CSS, JS, Server-side APIs",
+            "Bootstrap, Git branching workflow, Agile software development"
+        ],
+        "github": "https://github.com/neilcreveling/team-project",
+        "link": "https://lawriedrew.github.io/team-project/"
     }
 ]

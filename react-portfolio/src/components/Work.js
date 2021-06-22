@@ -26,9 +26,16 @@ class Work extends Component {
 
     render() {
         return (
-            <Jumbotron>
-                <h1>Work</h1>
+            <Jumbotron id="workpage">
+            <h1>Work</h1>
+            <Jumbotron className="jumbotron"
+            style={{
+                display: 'flex',
+                flexDirection: 'column',
+                jusitfyContent: 'center'
+            }}>
                  {this.mapProjects()}
+        </Jumbotron>
         </Jumbotron>
         )
     }
